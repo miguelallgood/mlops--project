@@ -26,10 +26,14 @@ This command builds the Docker image using the Dockerfile provided and sets up t
 
 4. **Run the Experiment:**
 Once the Docker container is up and running, it executes the MLflow experiment. You can access the MLflow UI at http://localhost:5000 in your web browser.
+![MLflow experiment](https://raw.githubusercontent.com/miguelallgood/mlops--project/main/images/MLflow_experiment.png)
+
 
 5. **Model Serving**:
    - After training, the model is saved and served using MLflow's model serving capabilities.
    - The model is served on port 1234, which can be accessed locally.
+   ![MLflow Model](https://raw.githubusercontent.com/miguelallgood/mlops--project/main/images/BestModel.png)
+
 
 6. **Terminate the Docker Container:**
 After you have completed your experiment, you can terminate the Docker container by running:
@@ -46,13 +50,13 @@ mlops-project
 ├── Dockerfile
 ├── main.tf
 ├── .gitignore
-├── scripts
-│   ├── experiment.py
-│   ├── entrypoint.sh
-│   ├── requirements.txt
-│   └── data
-└── artifacts
+└── scripts
+    ├── experiment.py
+    ├── entrypoint.sh
+    ├── requirements.txt
+    └── data
 ```
+The data directory contains the dataset used for the MLflow experiment.
 
 ## Additional Information
 
