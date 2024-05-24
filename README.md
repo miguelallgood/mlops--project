@@ -14,7 +14,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/miguelallgood/mlops-project.git
+    git clone https://github.com/miguelallgood/mlops--project.git
 2. **Navigate to the Root Directory:**
     ```bash
     cd mlops-project
@@ -39,9 +39,7 @@ This command will remove all resources created by Terraform, including the Docke
 
 ## Project Structure
 
-**scripts:** Contains the Python scripts and entrypoint.sh for setting up the MLflow experiment environment.
-
-**terraform:** Contains the Terraform configuration file for provisioning the Docker container.
+**scripts:** Contains the dataset and scripts for setting up the environment and running the MLflow experiment.
 
 ```
 mlops-project
