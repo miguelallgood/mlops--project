@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
     git clone https://github.com/miguelallgood/mlops--project.git
 2. **Navigate to the Root Directory:**
     ```bash
-    cd mlops-project
+    cd mlops--project
 3. **Build the Docker Image:**
     ```bash    
     terraform init
